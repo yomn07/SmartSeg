@@ -1,0 +1,7 @@
+tensorflow==2.13.0
+numpy==1.24.3
+flask==2.3.0
+flask-cors==4.0.0
+nibabel==5.1.0
+matplotlib==3.7.2
+pillow==10.0.0
