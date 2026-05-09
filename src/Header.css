@@ -1,0 +1,31 @@
+.header {
+  background-color: #fff;            
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* centre verticalement le header */
+  border-bottom: 1px solid #ddd;    
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky; 
+  top: 0;           
+  width: 99%;
+  z-index: 1000;    
+}
+
+/* 💡 nouvelle classe pour aligner welcome et date verticalement */
+.header-left {
+  display: flex;
+  flex-direction: column; 
+}
+
+.header-left h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.header-left p {
+  margin: 2px 0 0 0;
+  color: #666;
+  font-size: 14px;
+}

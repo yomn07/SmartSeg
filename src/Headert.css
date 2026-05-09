@@ -1,0 +1,64 @@
+.header {
+  background-color: #fff;            
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;    
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky; 
+  top: 0;           
+  width: 99%;
+  z-index: 1000;    
+}
+
+/* Left section */
+.header-left {
+  display: flex;
+  flex-direction: column; 
+}
+
+.header-left h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.header-left p {
+  margin: 2px 0 0 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Profile */
+.profile {
+  position: relative;
+}
+
+.profile-btn {
+  cursor: pointer;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Dropdown */
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 120px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.dropdown p {
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown p:hover {
+  background: #f1f5f9;
+}
