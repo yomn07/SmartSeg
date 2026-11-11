@@ -1,0 +1,65 @@
+.cases-container {
+  margin-top: 20px;
+}
+
+/* Search */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Table */
+.cases-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cases-table th,
+.cases-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.cases-table th {
+  background-color: #f5f7fb;
+}
+
+/* Status styles */
+.status {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.status.completed {
+  background-color: #d4edda;
+  color: #28a745;
+}
+
+.status.processing {
+  background-color: #d0e2ff;
+  color: #2a7be4;
+}
+
+.status.pending {
+  background-color: #ffe5d0;
+  color: #ff6a00;
+}
+
+/* Links */
+.link {
+  color: #2a7be4;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
