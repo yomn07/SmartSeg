@@ -1,0 +1,86 @@
+.card {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Titre du formulaire */
+.card h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #0d6efd;
+}
+
+/* Labels */
+.card label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Inputs */
+.card input,
+.card select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.card input:focus,
+.card select:focus {
+  border-color: #0d6efd;
+  outline: none;
+  box-shadow: 0 0 5px rgba(13,102,253,0.3);
+}
+
+/* Bouton */
+.card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Message d’alerte */
+.signup-message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: #0d6efd;
+}
+
+/* Header du formulaire (titre + sous-titre) */
+.header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header .subtitle {
+  font-size: 16px;
+  color: #555;
+}
