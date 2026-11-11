@@ -154,6 +154,3 @@ SmartSeg is an academic project. It is **not a medical device** and must not be 
 
 ---
 
-## 👩‍💻 Author
-
-**Yomn Toumia** — [@yomn07](https://github.com/yomn07)
